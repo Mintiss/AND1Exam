@@ -1,16 +1,16 @@
-package AND1.TheRasmussen.ui.gallery;
+package AND1.TheRasmussen.ui.lectureThree;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class GalleryViewModel extends ViewModel {
+public class LectureThreeViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public GalleryViewModel() {
+    public LectureThreeViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is gallery fragment");
+        mText.setValue("This is lec 3 fragment");
     }
 
     public LiveData<String> getText() {

@@ -5,12 +5,29 @@
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_info">Info</string>
 
+    <string name="menu_lecture_one">Introduction &amp; Layouts</string>
+    <string name="menu_lecture_two">Activities &amp; Resources</string>
+    <string name="menu_lecture_three">Intents &amp; Fragments</string>
+    <string name="menu_lecture_four">User Experience</string>
+    <string name="menu_lecture_five">RecyclerViews</string>
+    <string name="menu_lecture_six">Application Architecture</string>
+    <string name="menu_lecture_seven">Local Data Storage</string>
+    <string name="menu_lecture_eight">Networking</string>
+    <string name="menu_lecture_nine">Google Services</string>
+    <string name="menu_lecture_ten">Testing &amp; Publishing</string>
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+    <string name="lectures">Lectures</string>
+    <string name="home_introduction_start">Hello and welcome to the AND1 Exam Application called the Rasmussen.</string>0
+    <string name="home_introduction_end">Please select a lecture from the Navigation drawer to get started.</string>
+    <string name="pokemon">And here\'s a pokemon that you like.</string>
+    <string name="lecture_one_intro">In the first lecture we learned about Layouts, Views, and basic components.</string>
+    <string name="lecture_one_example">For example:</string>
+    <string name="lecture_one_button">here is a button</string>
+    <string name="lecture_one_frame_layout">Here is a TextView inside of a FrameLayout</string>
+    <string name="lesson_one_layout_weight">Below is a LinearLayout with two ImageViews that have a set weight of 1 and 2.</string>
+    <string name="lesson_one_constraint_start">This is a constraint layout</string>
+    <string name="lesson_one_constraint_end">I do not like them that much, so i rarely use them.</string>
+    <string name="lesson_one_end">And those were the main things we learnt in the first lesson.</string>
 </resources>

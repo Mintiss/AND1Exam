@@ -1,16 +1,16 @@
-package AND1.TheRasmussen.ui.send;
+package AND1.TheRasmussen.ui.lectureTwo;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class SendViewModel extends ViewModel {
+public class LectureTwoViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public SendViewModel() {
+    public LectureTwoViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is send fragment");
+        mText.setValue("This is lec 2 fragment");
     }
 
     public LiveData<String> getText() {

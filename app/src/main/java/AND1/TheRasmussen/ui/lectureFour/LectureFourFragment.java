@@ -1,4 +1,4 @@
-package AND1.TheRasmussen.ui.slideshow;
+package AND1.TheRasmussen.ui.lectureFour;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProviders;
 
 import AND1.TheRasmussen.R;
 
-public class SlideshowFragment extends Fragment {
+public class LectureFourFragment extends Fragment {
 
-    private SlideshowViewModel slideshowViewModel;
+    private LectureFourViewModel lectureFourViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        slideshowViewModel =
-                ViewModelProviders.of(this).get(SlideshowViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_slideshow, container, false);
-        final TextView textView = root.findViewById(R.id.text_slideshow);
-        slideshowViewModel.getText().observe(this, new Observer<String>() {
+        lectureFourViewModel =
+                ViewModelProviders.of(this).get(LectureFourViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_lecture_four, container, false);
+        final TextView textView = root.findViewById(R.id.text_share);
+        lectureFourViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);

@@ -1,4 +1,4 @@
-package AND1.TheRasmussen.ui.send;
+package AND1.TheRasmussen.ui.lectureFive;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProviders;
 
 import AND1.TheRasmussen.R;
 
-public class SendFragment extends Fragment {
+public class LectureFiveFragment extends Fragment {
 
-    private SendViewModel sendViewModel;
+    private LectureFiveViewModel lectureFiveViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        sendViewModel =
-                ViewModelProviders.of(this).get(SendViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_send, container, false);
+        lectureFiveViewModel =
+                ViewModelProviders.of(this).get(LectureFiveViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_lecture_five, container, false);
         final TextView textView = root.findViewById(R.id.text_send);
-        sendViewModel.getText().observe(this, new Observer<String>() {
+        lectureFiveViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);

@@ -12,32 +12,32 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="AND1.TheRasmussen.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_lecture_one"
+        android:name="AND1.TheRasmussen.ui.lectureOne.LectureOneFragment"
+        android:label="@string/menu_lecture_one"
+        tools:layout="@layout/fragment_lecture_one" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="AND1.TheRasmussen.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_lecture_two"
+        android:name="AND1.TheRasmussen.ui.lectureTwo.LectureTwoFragment"
+        android:label="@string/menu_lecture_two"
+        tools:layout="@layout/fragment_lecture_two" />
 
     <fragment
-        android:id="@+id/nav_tools"
-        android:name="AND1.TheRasmussen.ui.tools.ToolsFragment"
-        android:label="@string/menu_tools"
-        tools:layout="@layout/fragment_tools" />
+        android:id="@+id/nav_lecture_three"
+        android:name="AND1.TheRasmussen.ui.lectureThree.LectureThreeFragment"
+        android:label="@string/menu_lecture_three"
+        tools:layout="@layout/fragment_lecture_three" />
 
     <fragment
-        android:id="@+id/nav_share"
-        android:name="AND1.TheRasmussen.ui.share.ShareFragment"
-        android:label="@string/menu_share"
-        tools:layout="@layout/fragment_share" />
+        android:id="@+id/nav_lecture_four"
+        android:name="AND1.TheRasmussen.ui.lectureFour.LectureFourFragment"
+        android:label="@string/menu_lecture_four"
+        tools:layout="@layout/fragment_lecture_four" />
 
     <fragment
-        android:id="@+id/nav_send"
-        android:name="AND1.TheRasmussen.ui.send.SendFragment"
-        android:label="@string/menu_send"
-        tools:layout="@layout/fragment_send" />
+        android:id="@+id/nav_lecture_five"
+        android:name="AND1.TheRasmussen.ui.lectureFive.LectureFiveFragment"
+        android:label="@string/menu_lecture_five"
+        tools:layout="@layout/fragment_lecture_five" />
 </navigation>

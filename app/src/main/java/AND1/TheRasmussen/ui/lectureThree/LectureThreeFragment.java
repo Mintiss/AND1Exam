@@ -1,4 +1,4 @@
-package AND1.TheRasmussen.ui.gallery;
+package AND1.TheRasmussen.ui.lectureThree;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProviders;
 
 import AND1.TheRasmussen.R;
 
-public class GalleryFragment extends Fragment {
+public class LectureThreeFragment extends Fragment {
 
-    private GalleryViewModel galleryViewModel;
+    private LectureThreeViewModel lectureOneViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        galleryViewModel =
-                ViewModelProviders.of(this).get(GalleryViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_gallery, container, false);
-        final TextView textView = root.findViewById(R.id.text_gallery);
-        galleryViewModel.getText().observe(this, new Observer<String>() {
+        lectureOneViewModel =
+                ViewModelProviders.of(this).get(LectureThreeViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_lecture_three, container, false);
+        final TextView textView = root.findViewById(R.id.text_tools);
+        lectureOneViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);
