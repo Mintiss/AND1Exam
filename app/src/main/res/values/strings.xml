@@ -30,4 +30,13 @@
     <string name="lesson_one_constraint_start">This is a constraint layout</string>
     <string name="lesson_one_constraint_end">I do not like them that much, so i rarely use them.</string>
     <string name="lesson_one_end">And those were the main things we learnt in the first lesson.</string>
+    <string name="lesson_two_intro">In the Second Lecture we learnt a lot of theory about stuff like activities, linking XML with
+        code, resources, localization, icons, styles, themes and etc. \n \n This is a button that shows a Toast, and sets its name to the text provided in the EditText field. It also writes a Log message. </string>
+    <string name="lecture_two_button">Button</string>
+    <string name="lecture_two_button_hint">Enter desired button text</string>
+    <string name="lecture_two_progress_bar_text">Here is a progress bar you can play around with</string>
+    <string name="plus_sign">+</string>
+    <string name="minus_sign">-</string>
+    <string name="lecture_two_icon_style_text">By clicking the button below, you can change the style of this text and the icon of the button</string>
+    <string name="lecture_two_outro">And this lecture reacts to orientation changes.  \n\n   That is it for the second lecture.</string>
 </resources>
