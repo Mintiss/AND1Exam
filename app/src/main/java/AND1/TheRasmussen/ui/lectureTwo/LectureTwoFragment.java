@@ -20,7 +20,6 @@ import java.util.Random;
 import AND1.TheRasmussen.R;
 
 import static android.content.res.Configuration.ORIENTATION_LANDSCAPE;
-import static android.content.res.Configuration.ORIENTATION_PORTRAIT;
 
 public class LectureTwoFragment extends Fragment implements View.OnClickListener{
 
@@ -39,11 +38,11 @@ public class LectureTwoFragment extends Fragment implements View.OnClickListener
         editText = view.findViewById(R.id.lecture_two_edit_text);
         editTextButton =  view.findViewById(R.id.lecture_two_button);
         progressBar = view.findViewById(R.id.lecture_two_progressbar);
-        plusButton = view.findViewById(R.id.lesson_two_plus_button);
-        minusButton = view.findViewById(R.id.lesson_two_minus_button);
-        iconButton = view.findViewById(R.id.lesson_two_icon_button);
-        styledTextView = view.findViewById(R.id.lesson_two_styled_text);
-        introTextView = view.findViewById(R.id.lesson_two_intro_text);
+        plusButton = view.findViewById(R.id.lecture_two_plus_button);
+        minusButton = view.findViewById(R.id.lecture_two_minus_button);
+        iconButton = view.findViewById(R.id.lecture_two_icon_button);
+        styledTextView = view.findViewById(R.id.lecture_two_styled_text);
+        introTextView = view.findViewById(R.id.lecture_two_intro_text);
         progressTextView = view.findViewById(R.id.lecture_two_progress_text);
 
 
@@ -77,17 +76,17 @@ public class LectureTwoFragment extends Fragment implements View.OnClickListener
                 Toast.makeText(getContext(), "This is a Toast", Toast.LENGTH_SHORT).show();
                 editTextButton.setText(editText.getText().toString());
                 break;
-            case R.id.lesson_two_plus_button:
+            case R.id.lecture_two_plus_button:
                 if(plusButton.isPressed()) {
                     progressBar.incrementProgressBy(10);
                     break;
                 }
-            case R.id.lesson_two_minus_button:
+            case R.id.lecture_two_minus_button:
                 if(minusButton.isPressed()) {
                     progressBar.incrementProgressBy(-10);
                     break;
                 }
-            case R.id.lesson_two_icon_button:
+            case R.id.lecture_two_icon_button:
                 switch (new Random().nextInt(5)){
 
                     case 0:

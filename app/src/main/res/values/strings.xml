@@ -19,18 +19,19 @@
     <string name="menu_lecture_ten">Testing &amp; Publishing</string>
     <string name="menu_home">Home</string>
     <string name="lectures">Lectures</string>
-    <string name="home_introduction_start">Hello and welcome to the AND1 Exam Application called the Rasmussen.</string>0
+    <string name="home_introduction_start">Hello and welcome to the AND1 Exam Application called the Rasmussen.</string>
+    0
     <string name="home_introduction_end">Please select a lecture from the Navigation drawer to get started.</string>
     <string name="pokemon">And here\'s a pokemon that you like.</string>
     <string name="lecture_one_intro">In the first lecture we learned about Layouts, Views, and basic components.</string>
     <string name="lecture_one_example">For example:</string>
     <string name="lecture_one_button">here is a button</string>
     <string name="lecture_one_frame_layout">Here is a TextView inside of a FrameLayout</string>
-    <string name="lesson_one_layout_weight">Below is a LinearLayout with two ImageViews that have a set weight of 1 and 2.</string>
-    <string name="lesson_one_constraint_start">This is a constraint layout</string>
-    <string name="lesson_one_constraint_end">I do not like them that much, so i rarely use them.</string>
-    <string name="lesson_one_end">And those were the main things we learnt in the first lesson.</string>
-    <string name="lesson_two_intro">In the Second Lecture we learnt a lot of theory about stuff like activities, linking XML with
+    <string name="lecture_one_layout_weight">Below is a LinearLayout with two ImageViews that have a set weight of 1 and 2.</string>
+    <string name="lecture_one_constraint_start">This is a constraint layout</string>
+    <string name="lecture_one_constraint_end">I do not like them that much, so i rarely use them.</string>
+    <string name="lecture_one_end">And those were the main things we learnt in the first lecture.</string>
+    <string name="lecture_two_intro">In the Second Lecture we learnt a lot of theory about stuff like activities, linking XML with
         code, resources, localization, icons, styles, themes and etc. \n \n This is a button that shows a Toast, and sets its name to the text provided in the EditText field. It also writes a Log message. </string>
     <string name="lecture_two_button">Button</string>
     <string name="lecture_two_button_hint">Enter desired button text</string>
@@ -39,4 +40,20 @@
     <string name="minus_sign">-</string>
     <string name="lecture_two_icon_style_text">By clicking the button below, you can change the style of this text and the icon of the button</string>
     <string name="lecture_two_outro">And this lecture reacts to orientation changes.  \n\n   That is it for the second lecture.</string>
+    <string name="lecture_three_intro">In the third lecture we learnt about Intents and Fragments. Since this is a single Activity application, it does not make sense to have more, but for demonstration purposes, click the button below to go to another Activity.</string>
+    <string name="lecture_three_launch_button">To Second activity</string>
+    <string name="lecture_three_sending_data">You can also send some data to the Activity, for example anything you enter in the field below.</string>
+    <string name="lecture_three_activity_response">Here you can see responses from the second Activity:\n</string>
+    <string name="lecture_three_activity_intro">Welcome to another Activity, brought to you by Explicit intents. Below, you can see what you sent from the previous fragment.</string>
+    <string name="lecture_three_received_text">You did not send anything :(</string>
+    <string name="lecture_three_send_back_text">You can also send stuff back.</string>
+    <string name="lecture_three_activity_hint">Enter what to send back</string>
+    <string name="lecture_three_fragment_hint">Enter what you want to send</string>
+    <string name="lecture_three_activity_return">Reply and return</string>
+    <string name="lecture_three_email_intro">Now we can do an implicit intent like send an email.</string>
+    <string name="lecture_three_receiver">Receiver</string>
+    <string name="lecture_three_subject">Subject</string>
+    <string name="lecture_three_message">Message</string>
+    <string name="lecture_three_send">Send</string>
+    <string name="lecture_three_outro">We also learnt a lot about fragments in this lecture and they are used trough out the entire application.</string>
 </resources>
