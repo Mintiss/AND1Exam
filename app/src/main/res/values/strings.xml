@@ -56,4 +56,23 @@
     <string name="lecture_three_message">Message</string>
     <string name="lecture_three_send">Send</string>
     <string name="lecture_three_outro">We also learnt a lot about fragments in this lecture and they are used trough out the entire application.</string>
+    <string name="the_rasmussen">The Rasmussen</string>
+    <string name="surely_enough_for_a_pass_right">Surely enough for a pass, right?</string>
+    <string name="example_text">Example text</string>
+    <string name="lecture_five_intro">In this lecture the main takeaway was using the recycler views, so below we have a list with hex codes and their color, implemented using a RecyclerView.</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="lecture_nine_intro">In the lecture about Google Services we mainly learnt about various Firebase functionality. Here we have a register and login screen for handling clients implemented using Firebase Authentication.</string>
+    <string name="lecture_nine_register_screen_text">Register Screen</string>
+    <string name="login">Login</string>
+    <string name="lecture_nine_login_screen">Login Screen</string>
+    <string name="lecture_nine_profile_screen">Profile Screen</string>
+    <string name="lecture_nine_user_id">User ID:</string>
+    <string name="none">none</string>
+    <string name="log_out">Log out</string>
+    <string name="profile_user_email">User email:</string>
+    <string name="profile_is_the_user_logged_in">Is the user logged in? :</string>
+    <string name="yes_no">yes/no</string>
 </resources>

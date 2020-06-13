@@ -1,16 +1,16 @@
-package AND1.TheRasmussen.ui.lectureFive;
+package AND1.TheRasmussen.ui.lecture_four;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class LectureFiveViewModel extends ViewModel {
+public class LectureFourViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public LectureFiveViewModel() {
+    public LectureFourViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is lec 5 fragment");
+        mText.setValue("This is lec 4 fragment");
     }
 
     public LiveData<String> getText() {

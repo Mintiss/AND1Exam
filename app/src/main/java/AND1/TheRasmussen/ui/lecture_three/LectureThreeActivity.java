@@ -1,4 +1,4 @@
-package AND1.TheRasmussen.ui.lectureThree;
+package AND1.TheRasmussen.ui.lecture_three;
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -13,31 +13,62 @@
 
     <fragment
         android:id="@+id/nav_lecture_one"
-        android:name="AND1.TheRasmussen.ui.lectureOne.LectureOneFragment"
+        android:name="AND1.TheRasmussen.ui.lecture_one.LectureOneFragment"
         android:label="@string/menu_lecture_one"
         tools:layout="@layout/fragment_lecture_one" />
 
     <fragment
         android:id="@+id/nav_lecture_two"
-        android:name="AND1.TheRasmussen.ui.lectureTwo.LectureTwoFragment"
+        android:name="AND1.TheRasmussen.ui.lecture_two.LectureTwoFragment"
         android:label="@string/menu_lecture_two"
         tools:layout="@layout/fragment_lecture_two" />
 
     <fragment
         android:id="@+id/nav_lecture_three"
-        android:name="AND1.TheRasmussen.ui.lectureThree.LectureThreeFragment"
+        android:name="AND1.TheRasmussen.ui.lecture_three.LectureThreeFragment"
         android:label="@string/menu_lecture_three"
         tools:layout="@layout/fragment_lecture_three" />
 
     <fragment
         android:id="@+id/nav_lecture_four"
-        android:name="AND1.TheRasmussen.ui.lectureFour.LectureFourFragment"
+        android:name="AND1.TheRasmussen.ui.lecture_four.LectureFourFragment"
         android:label="@string/menu_lecture_four"
         tools:layout="@layout/fragment_lecture_four" />
 
     <fragment
         android:id="@+id/nav_lecture_five"
-        android:name="AND1.TheRasmussen.ui.lectureFive.LectureFiveFragment"
+        android:name="AND1.TheRasmussen.ui.lecture_five.LectureFiveFragment"
         android:label="@string/menu_lecture_five"
         tools:layout="@layout/fragment_lecture_five" />
+
+    <fragment
+        android:id="@+id/nav_lecture_six"
+        android:name="AND1.TheRasmussen.ui.lecture_six.LectureSixFragment"
+        android:label="@string/menu_lecture_six"
+        tools:layout="@layout/fragment_lecture_six" />
+
+    <fragment
+        android:id="@+id/nav_lecture_seven"
+        android:name="AND1.TheRasmussen.ui.lecture_seven.LectureSevenFragment"
+        android:label="@string/menu_lecture_seven"
+        tools:layout="@layout/fragment_lecture_seven" />
+
+    <fragment
+        android:id="@+id/nav_lecture_eight"
+        android:name="AND1.TheRasmussen.ui.lecture_eight.LectureEightFragment"
+        android:label="@string/menu_lecture_eight"
+        tools:layout="@layout/fragment_lecture_eight" />
+
+    <fragment
+        android:id="@+id/nav_lecture_nine"
+        android:name="AND1.TheRasmussen.ui.lecture_nine.LectureNineFragment"
+        android:label="@string/menu_lecture_nine"
+        tools:layout="@layout/fragment_lecture_nine" />
+
+    <fragment
+        android:id="@+id/nav_lecture_ten"
+        android:name="AND1.TheRasmussen.ui.lecture_ten.LectureTenFragment"
+        android:label="@string/menu_lecture_ten"
+        tools:layout="@layout/fragment_lecture_ten" />
+
 </navigation>

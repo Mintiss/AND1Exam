@@ -1,4 +1,4 @@
-package AND1.TheRasmussen.ui.lectureTwo;
+package AND1.TheRasmussen.ui.lecture_two;
 
 import android.os.Bundle;
 import android.util.Log;

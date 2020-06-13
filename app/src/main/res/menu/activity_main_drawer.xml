@@ -30,6 +30,18 @@
             <item
                 android:id="@+id/nav_lecture_six"
                 android:title="@string/menu_lecture_six" />
+            <item
+                android:id="@+id/nav_lecture_seven"
+                android:title="@string/menu_lecture_seven" />
+            <item
+                android:id="@+id/nav_lecture_eight"
+                android:title="@string/menu_lecture_eight" />
+            <item
+                android:id="@+id/nav_lecture_nine"
+                android:title="@string/menu_lecture_nine" />
+            <item
+                android:id="@+id/nav_lecture_ten"
+                android:title="@string/menu_lecture_ten" />
         </menu>
     </item>
 
