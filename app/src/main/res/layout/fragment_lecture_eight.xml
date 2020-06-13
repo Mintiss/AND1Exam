@@ -1,13 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.lecture_eight.LectureEightFragment">
+    tools:context=".ui.lecture_eight.LectureEightFragment"
+    android:layout_marginTop="16dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="16dp"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello" />
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.MdcTypographyStyles.Body1"
+        android:textAlignment="center"
+        android:text="@string/lecture_eight_intro"/>
 
-</FrameLayout>
+    <Button
+        android:id="@+id/lecture_eight_dad_joke_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dad_joke_plz"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/lecture_eight_dad_joke_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.MdcTypographyStyles.Body1"
+        android:text="@string/place_for_dad_jokes"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="16dp"/>
+
+
+</LinearLayout>
