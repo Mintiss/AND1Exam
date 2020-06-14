@@ -110,7 +110,7 @@ public class LectureNineFragment extends Fragment implements View.OnClickListene
                                 profileUserId.setText(auth.getUid());
                                 isLoggedin.setText("Yes");
                                 registerEmail.setText("");
-                                registerConfirmPassword.setText("");
+                                registerPassword.setText("");
                                 registerConfirmPassword.setText("");
                                 InputMethodManager imm = (InputMethodManager) getContext().getSystemService(Activity.INPUT_METHOD_SERVICE);
                                 imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
