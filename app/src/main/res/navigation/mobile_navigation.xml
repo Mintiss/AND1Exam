@@ -33,7 +33,38 @@
         android:id="@+id/nav_lecture_four"
         android:name="AND1.TheRasmussen.ui.lecture_four.LectureFourFragment"
         android:label="@string/menu_lecture_four"
-        tools:layout="@layout/fragment_lecture_four" />
+        tools:layout="@layout/fragment_lecture_four" >
+        <action
+            android:id="@+id/action_nav_lecture_four_to_nav_lecture_two"
+            app:destination="@id/nav_lecture_two" />
+        <action
+            android:id="@+id/action_nav_lecture_four_to_nav_lecture_eight"
+            app:destination="@id/nav_lecture_eight" />
+        <action
+            android:id="@+id/action_nav_lecture_four_to_nav_lecture_seven"
+            app:destination="@id/nav_lecture_seven" />
+        <action
+            android:id="@+id/action_nav_lecture_four_to_nav_home"
+            app:destination="@id/nav_home" />
+        <action
+            android:id="@+id/action_nav_lecture_four_to_nav_lecture_three"
+            app:destination="@id/nav_lecture_three" />
+        <action
+            android:id="@+id/action_nav_lecture_four_to_nav_lecture_ten"
+            app:destination="@id/nav_lecture_ten" />
+        <action
+            android:id="@+id/action_nav_lecture_four_to_nav_lecture_five"
+            app:destination="@id/nav_lecture_five" />
+        <action
+            android:id="@+id/action_nav_lecture_four_to_nav_lecture_nine"
+            app:destination="@id/nav_lecture_nine" />
+        <action
+            android:id="@+id/action_nav_lecture_four_to_nav_lecture_one"
+            app:destination="@id/nav_lecture_one" />
+        <action
+            android:id="@+id/action_nav_lecture_four_to_nav_lecture_six"
+            app:destination="@id/nav_lecture_six" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_lecture_five"

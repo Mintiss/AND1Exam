@@ -1,5 +1,7 @@
 package AND1.TheRasmussen.ui.lecture_eight;
 
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProvider;
 import androidx.lifecycle.ViewModelProviders;
 
 import android.os.Bundle;
@@ -35,9 +37,18 @@ public class LectureEightFragment extends Fragment implements View.OnClickListen
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_lecture_eight, container, false);
+        mViewModel = new ViewModelProvider(this).get(LectureEightViewModel.class);
+
 
         dadJoke = view.findViewById(R.id.lecture_eight_dad_joke_text);
         dadJokeButton = view.findViewById(R.id.lecture_eight_dad_joke_button);
+
+        mViewModel.getDadJoke().observe(getViewLifecycleOwner(), new Observer<String>() {
+            @Override
+            public void onChanged(String s) {
+                dadJoke.setText(s);
+            }
+        });
 
 
         dadJokeButton.setOnClickListener(this);
@@ -50,23 +61,8 @@ public class LectureEightFragment extends Fragment implements View.OnClickListen
 
     @Override
     public void onClick(View v) {
-
-        DadJokeAPI dadJokeAPI = ServiceGenerator.getDadJokeAPI();
-        Call<DadJoke> call = dadJokeAPI.getDadJoke();
-        call.enqueue(new Callback<DadJoke>() {
-            @Override
-            public void onResponse(Call<DadJoke> call, Response<DadJoke> response) {
-                if (response.code() == 200) {
-                    Log.i("ass", response.body().getJoke());
-
-                }
-            }
-
-            @Override
-            public void onFailure(Call<DadJoke> call, Throwable t) {
-                Log.i("Retrofit", "Something went wrong :(");
-            }
-        });
+        mViewModel.updateDadJoke();
 
     }
+
 }

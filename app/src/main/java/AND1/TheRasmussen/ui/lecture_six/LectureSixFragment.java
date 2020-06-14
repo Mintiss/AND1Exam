@@ -16,7 +16,6 @@ import AND1.TheRasmussen.R;
 
 public class LectureSixFragment extends Fragment {
 
-    private LectureSixViewModel mViewModel;
 
     public static LectureSixFragment newInstance() {
         return new LectureSixFragment();
@@ -28,11 +27,5 @@ public class LectureSixFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_lecture_six, container, false);
     }
 
-    @Override
-    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-        mViewModel = ViewModelProviders.of(this).get(LectureSixViewModel.class);
-        // TODO: Use the ViewModel
-    }
 
 }

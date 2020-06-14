@@ -11,13 +11,16 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+
+import java.util.ArrayList;
 
 import AND1.TheRasmussen.R;
 
-public class LectureTenFragment extends Fragment {
+public class LectureTenFragment extends Fragment implements View.OnClickListener {
 
-    private LectureTenViewModel mViewModel;
-
+    private View view;
+    private Button byeButton;
     public static LectureTenFragment newInstance() {
         return new LectureTenFragment();
     }
@@ -25,14 +28,20 @@ public class LectureTenFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_lecture_ten, container, false);
+
+
+        view = inflater.inflate(R.layout.fragment_lecture_ten, container, false);
+
+        byeButton = view.findViewById(R.id.bye_button);
+        byeButton.setOnClickListener(this);
+
+        return view;
     }
+
 
     @Override
-    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-        mViewModel = ViewModelProviders.of(this).get(LectureTenViewModel.class);
-        // TODO: Use the ViewModel
+    public void onClick(View v) {
+        getActivity().moveTaskToBack(true);
+        getActivity().finish();
     }
-
 }

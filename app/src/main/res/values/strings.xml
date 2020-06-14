@@ -89,4 +89,11 @@
     <string name="lecture_eight_intro">In this lecture, we leaned how to consume web apis.  \n\n  Click the button below to get a dad joke from the dad joke api.</string>
     <string name="place_for_dad_jokes">Place for dad jokes</string>
     <string name="dad_joke_plz">Dad joke plz</string>
+    <string name="lecture_four_intro">In this lecture we learnt about many of the components that improve the user experience in your application.  \n\n  Some of these components are already used in the application for example the Navigation Drawer. \n\n For presentation purposes in this fragment we also have a SnackBar and a Fab that navigates to a random other lecture using the Android Navigation.  </string>
+    <string name="snackbar">SnackBar</string>
+    <string name="lecture_six_intro">In this lecture we learnt about using MVVM and live data which is used in the Local Data Storage and Networking lectures.</string>
+    <string name="lecture_six_meme">We\'ve seen a lot of functionality so have a meme instead</string>
+    <string name="lecture_ten_intro">In the testing lecture we learned how to test our application. Unfortunately android apps do not have much business logic to test  \n\n To solve this problem I have implemented a simple calculator class which can be easily tested by using JUnit \n\n   There are also two recorded Espresso tests that check the functionality of the register and the login in the Google Services. They behave as expected but still fail due to Espresso being a total pile of garbage</string>
+    <string name="lecture_ten_outro">This lecture concludes The Rasmussen android application, hope you have enjoyed hand hopefully enough requirements are met for me to pass the exam.   \n\n And now you may press the button below to close the application</string>
+    <string name="bye_bye">Bye Bye</string>
 </resources>
